@@ -1,0 +1,47 @@
+.map__image {
+    float: left;
+    margin: 0;
+}
+
+.map__image svg {  
+    position: relative;
+    padding: 1em 1em 1em 1em;
+    height:50em;
+}
+.land {
+    transition: all .2s ease-in-out; 
+}/*
+.land:hover {
+    border:1px solid #3b3b3d
+  }*/
+
+#map__dep {
+    display: none;
+}
+#map__dep.is_visible {
+    display: contents;
+}
+
+
+#map__region.is_not_visible {
+    display: none;
+}
+
+#popup {
+    display: none;
+    position: absolute;
+    border-radius: 5px;
+    padding: 5px;
+    font-family: arial;
+}
+
+
+.separation {
+    fill:none;
+    stroke:#615e5e;
+    stroke-width:1px;
+    stroke-linecap:butt;
+    cursor: default;
+    stroke-linejoin:miter;
+    stroke-opacity:1;
+}

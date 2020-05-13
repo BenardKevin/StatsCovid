@@ -1,0 +1,19 @@
+﻿reg;reg_nom;reg_id
+1;Guadeloupe;GP
+2;Martinique;MQ
+3;Guyane;GF
+4;Réunion;RE
+6;Mayotte;YT
+11;Île-de-France;IDF
+24;Centre-Val de Loire;CVL
+27;Bourgogne-Franche-Comté;BFC
+28;Normandie;NOR
+32;Hauts-de-France;HDF
+44;Grand Est;GES
+52;Pays de la Loire;PDL
+53;Bretagne;BRE
+75;Nouvelle-Aquitaine;NAQ
+76;Occitanie;OCC
+84;Auvergne-Rhône-Alpes;ARA
+93;Provence-Alpes-Côte-D'Azur;PAC
+94;Corse ;COR
