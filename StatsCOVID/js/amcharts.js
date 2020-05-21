@@ -13,19 +13,19 @@ am4core.ready(function() {
     chart.data = [
       {
         cas: "Décès à l'hôpital",
-        nombre: 15826
+        nombre: 17101
       },
       {
         cas: "Hospitalisations",
-        nombre: 25548
+        nombre: 21071
       },
       {
         cas: "Retours à domicile",
-        nombre: 51371
+        nombre: 58673
       },
       {
         cas: "En réanimation",
-        nombre: 3696
+        nombre: 2428
       }
     ];
     

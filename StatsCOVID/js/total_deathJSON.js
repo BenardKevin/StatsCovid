@@ -1,6 +1,6 @@
 const xmlhttp2 = new XMLHttpRequest();
+var total_deathJSON = window.location.origin + "/restsql/res/auto.total_death?_output=application/json";
 
-var total_deathJSON = "http://localhost:8080/restsql/res/auto.total_death?_output=application/json";
 
 xmlhttp2.open("GET", total_deathJSON, true);
 xmlhttp2.send();

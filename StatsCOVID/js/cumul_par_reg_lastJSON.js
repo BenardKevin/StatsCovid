@@ -1,6 +1,6 @@
 
 const xmlhttp3 = new XMLHttpRequest(),
-    cumul_par_reg_lastJSON = "http://localhost:8080/restsql/res/auto.cumul_par_reg_last?_output=application/json",
+    cumul_par_reg_lastJSON = window.location.origin + "/restsql/res/auto.cumul_par_reg_last?_output=application/json",
     areasReg = document.querySelectorAll("#map__region path"),
     nameListReg = document.querySelectorAll("#map__list_reg a");
 
@@ -35,6 +35,7 @@ areasReg.forEach(function(geoID){
         activeArea(geoID);
     })
 });
+
 //Method to add the name ID from where the mouse is to geoID.
 nameListReg.forEach(function(geoID){
     geoID.addEventListener("mouseenter",function(){
@@ -44,22 +45,26 @@ nameListReg.forEach(function(geoID){
         $(popup).css('display','block');
     })
 });
+
 //Method to remove the name ID if the mouse not on the map or the list.
 dashbord.addEventListener("mouseover",function(){
     activeArea();
     popupContent();
 });
+
 //Method to show a popup when mouse enter the area.
 areasReg.forEach(function(geoID){
     geoID.addEventListener("mouseenter",function(){
         $(popup).css('display','block');
     })
 });
+
 //Method to position the popup.
 $(document).mousemove(function() {
     $(popup).css('top',125);
     $(popup).css('left',800);
 });
+
 //Method to hide the popup when leaving the area.
 dashbord.addEventListener("mouseover",function(){
     $(popup).css('display','none');

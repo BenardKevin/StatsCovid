@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:sqlResource xmlns:ns2="http://restsql.org/schema">
+    <query>
+		SELECT *
+		FROM cumul_par_dep_et_sexe
+	</query>
+    <metadata>
+        <database default="covid"/>
+        <table name="cumul_par_dep_et_sexe" role="Parent"/>
+    </metadata>
+</ns2:sqlResource>

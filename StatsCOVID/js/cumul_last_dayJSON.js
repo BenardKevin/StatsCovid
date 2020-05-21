@@ -1,6 +1,6 @@
 window.onload=function(){
 const xmlhttp = new XMLHttpRequest(),
-cumul_last_dayJSON = "http://localhost:8080/restsql/res/auto.cumul_last_day?_output=application/json",
+cumul_last_dayJSON = window.location.origin + "/restsql/res/auto.cumul_last_day?_output=application/json",
 dashbord = document.querySelector("#dashbord"),
 popup = document.querySelector("#popup"),
 areasDep = document.querySelectorAll("#map__dep path"),

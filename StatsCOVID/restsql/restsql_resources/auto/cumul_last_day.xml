@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:sqlResource xmlns:ns2="http://restsql.org/schema">
+    <query>
+		SELECT *
+		FROM cumul_last_day
+	</query>
+    <metadata>
+        <database default="covid"/>
+        <table name="cumul_last_day" role="Parent"/>
+    </metadata>
+</ns2:sqlResource>
